@@ -14,4 +14,4 @@ books = book_repository.all()
 
 # listing the books in the correct format
 for book in books:
-    print(book)
+    print(f"{book.id} - {book.title} - {book.author_name}")
